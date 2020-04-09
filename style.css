@@ -1,0 +1,54 @@
+header {
+    border: solid goldenrod 1px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    display: block;
+    padding: 25px;
+}
+.month-list {
+    display: block;
+}
+.disabled {
+    color:rgb(148, 144, 144);
+}
+a.disabled {
+    color: purple;
+}
+.active {
+    color: yellow;
+}
+.parent div {
+    color: red;
+}
+.parent div h4 {
+    background-color: red;
+    color: black
+}
+.parent div ~ div {
+    color: blue;
+}
+.parent h4 ~ h4 {
+    background-color: blue;
+}
+.grandparent > h4 {
+    border: solid grey 1px;
+    border-radius: 5px;
+}
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+footer input {
+    text-size-adjust: 25px;
+}
+.padded > span input[type="text"] {
+    height: 25px;
+}
